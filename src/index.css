@@ -4,7 +4,7 @@
 
 /* Dark metalcore/gamer aesthetic */
 body {
-  font-family: 'Courier New', monospace;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'Courier New', monospace;
   background: #0a0a0a;
   color: #e0e0e0;
   margin: 0;
@@ -53,32 +53,26 @@ body {
 /* Neon glow effects */
 .neon-red {
   color: #ff0040 !important;
-  text-shadow: 0 0 5px #ff0040, 0 0 10px #ff0040;
 }
 
 .neon-cyan {
   color: #00ffff !important;
-  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
 }
 
 .neon-green {
   color: #00ff41 !important;
-  text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41;
 }
 
 .neon-purple {
   color: #bf00ff !important;
-  text-shadow: 0 0 5px #bf00ff, 0 0 10px #bf00ff;
 }
 
 .neon-orange {
   color: #ff8c00 !important;
-  text-shadow: 0 0 5px #ff8c00, 0 0 10px #ff8c00;
 }
 
 .neon-yellow {
   color: #ffff00 !important;
-  text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00;
 }
 
 /* Dark skill cards with neon borders */
@@ -113,10 +107,33 @@ body {
 
 /* Availability section with terminal style */
 .terminal-style {
-  background: #000 !important;
-  border: 2px solid #00ff41;
-  border-radius: 8px;
-  font-family: 'Courier New', monospace;
+  background: linear-gradient(145deg, #1a1a1a, #0d0d0d) !important;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.terminal-style::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(45deg, #00ff41, #00ffff, #00ff41, #bf00ff);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+.terminal-style:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 255, 65, 0.3);
 }
 
 /* References with dark cards */
