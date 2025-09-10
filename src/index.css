@@ -53,32 +53,32 @@ body {
 /* Neon glow effects */
 .neon-red {
   color: #ff0040 !important;
-  text-shadow: 0 0 10px #ff0040, 0 0 20px #ff0040, 0 0 30px #ff0040;
+  text-shadow: 0 0 5px #ff0040, 0 0 10px #ff0040;
 }
 
 .neon-cyan {
   color: #00ffff !important;
-  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+  text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
 }
 
 .neon-green {
   color: #00ff41 !important;
-  text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41;
+  text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41;
 }
 
 .neon-purple {
   color: #bf00ff !important;
-  text-shadow: 0 0 10px #bf00ff, 0 0 20px #bf00ff, 0 0 30px #bf00ff;
+  text-shadow: 0 0 5px #bf00ff, 0 0 10px #bf00ff;
 }
 
 .neon-orange {
   color: #ff8c00 !important;
-  text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00, 0 0 30px #ff8c00;
+  text-shadow: 0 0 5px #ff8c00, 0 0 10px #ff8c00;
 }
 
 .neon-yellow {
   color: #ffff00 !important;
-  text-shadow: 0 0 10px #ffff00, 0 0 20px #ffff00, 0 0 30px #ffff00;
+  text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00;
 }
 
 /* Dark skill cards with neon borders */

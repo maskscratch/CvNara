@@ -43,13 +43,13 @@ function App() {
 
               <div className="skill-card p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="neon-purple font-bold text-lg">🎸 SOUNDTRACK COMPATIBILITY:</span>
+                  <span className="neon-purple font-bold text-lg">🎸 SOUNDTRACK:</span>
                 </div>
                 <p className="text-gray-300 font-mono mb-2">
                   <strong className="neon-red">⚡ MAIN GENRES:</strong> Cualquier cosa que suene a punk + rock + indie
                 </p>
                 <p className="text-gray-300 font-mono">
-                  <strong className="neon-cyan">🎵 SECONDARY:</strong> pop, rap, jazz, blues, swing, electrónica...
+                  <strong className="neon-cyan">🎵 SECONDARY:</strong> pop, rap, jazz, blues, swing, electrónica, metal... CASI de todo'
                 </p>
               </div>
 
@@ -74,14 +74,14 @@ function App() {
 
               <div className="skill-card p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="neon-red font-bold text-lg">👨‍🍳 COOKING SKILLS:</span>
+                  <span className="neon-red font-bold text-lg">👨‍🍳 SKILLS DE COCINA:</span>
                 </div>
-                <p className="text-gray-300 font-mono">Experto en improvisar con lo que hay en la nevera (pero no soy gran cocinero)</p>
+                <p className="text-gray-300 font-mono">Experto en improvisar con lo que hay en la nevera (pero no soy gran cocinero, aunque lo intento fuerte)</p>
               </div>
 
               <div className="skill-card p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="neon-cyan font-bold text-lg">🎮 GAMING EXPERIENCE:</span>
+                  <span className="neon-cyan font-bold text-lg">🎮 GAMING:</span>
                 </div>
                 <p className="text-gray-300 font-mono">Especialista en roleplay, juegos cooperativos y aventuras compartidas</p>
               </div>
@@ -90,7 +90,7 @@ function App() {
                 <div className="flex items-center gap-3 mb-3">
                   <span className="neon-yellow font-bold text-lg">😄 HUMOR ABSURDO:</span>
                 </div>
-                <p className="text-gray-300 font-mono">Especialista en juegos de palabras malísimos y situaciones surrealistas</p>
+                <p className="text-gray-300 font-mono">Licenciado en juegos de palabras malísimos y situaciones surrealistas</p>
               </div>
             </div>
           </div>
